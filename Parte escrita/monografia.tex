@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classe do documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Opções:
+%  - Graduação: bacharelado/engenharia/licenciatura
+%  - Pós-graduação: mestrado/doutorado, ppca/ppginf
+
+\documentclass[engenharia]{UnB-CIC}%
+% \documentclass[mestrado,ppca]{UnB-CIC}%
+
+\usepackage{pdfpages}% incluir PDFs, usado no apêndice
+%\usepackage{indentfirst} % Faz com que todos os parágrafos (inclusive o primeiro) recebam recuo
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Informações do Trabalho
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\orientador{\prof \dr Alexandre Zaghetto}{CIC/UnB}%
+%\coorientador{\prof \dr José Ralha}{CIC/UnB}
+\coordenador{\prof \dr Ricardo Zelenovsky}{ENE/FT/UnB}%
+\diamesano{24}{dezembro}{2015}%
+
+\membrobanca{\prof \dr Banca 1}{Universidade de Brasília}%
+\membrobanca{\prof \dr Banca 2}{Universidade de Brasília}%
+
+\autor{Mateus Mendelson E. da}{Silva}%
+
+\titulo{Técnica anti-spoofing para leitores biométricos 3D de impressões digitais sem toque}%
+
+\palavraschave{biometria, impressão, digital, anti, spoofing, LBP, trabalho de conclusão de curso, LISA}%
+\keywords{biometrics, fingerprint, anti, spoofing, LBP, thesis, LISA}%
+
+\CDU{004}%
+
+\newcommand{\unbcic}{\texttt{UnB-CIC}}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Texto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}%
+	\nocite{*} % Permite que todas as referências bibliográficas sejam exibidas mesmo que não sejam referenciadas no texto
+
+	\capitulo{1_Introducao}{Introdução}%
+    \capitulo{2_Spoofing}{Spoofing}%
+    \capitulo{3_Imagens}{Técnicas e Manipulação de Imagens}%
+    \capitulo{1_Introducao_original}{Introdução}%
+    \capitulo{2_UnB-CIC}{A Classe \unbcic}%
+    \capitulo{3_TCC}{Trabalho de Conclusão de Curso}%
+    \capitulo{4_Apresentacao}{Apresentações}%
+
+    \apendice{Apendice_Fichamento}{Fichamento de Artigo Científico}%
+    \anexo{Anexo1}{Documentação Original \unbcic\ (parcial)}%
+\end{document}%

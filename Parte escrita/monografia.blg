@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: monografia.aux
+The style file: unb-cic.bst
+Database file #1: bibliografia.bib
+Warning--I didn't find a database entry for "newton1833philosophiae"
+Warning--I didn't find a database entry for "Biolchini_2005_Systematicreviewin"
+Warning--I didn't find a database entry for "Knuth_1986_texbook"
+Warning--I didn't find a database entry for "lamport_latex:_1994"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "greenwade93"
+Warning--I didn't find a database entry for "Oetiker_1995_notsoshort"
+Warning--I didn't find a database entry for "pinteric_latex_2004"
+Warning--I didn't find a database entry for "covey_first_1995"
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            585 strings with 6680 characters,
+and the built_in function-call counts, 4157 in all, are:
+= -- 384
+> -- 239
+< -- 1
++ -- 96
+- -- 80
+* -- 269
+:= -- 745
+add.period$ -- 45
+call.type$ -- 14
+change.case$ -- 77
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 166
+empty$ -- 302
+format.name$ -- 80
+if$ -- 848
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 17
+newline$ -- 74
+num.names$ -- 28
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 107
+stack$ -- 0
+substring$ -- 121
+swap$ -- 24
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 0
+while$ -- 31
+width$ -- 16
+write$ -- 151
+(There were 9 warnings)

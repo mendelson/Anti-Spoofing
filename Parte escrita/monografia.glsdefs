@@ -1,0 +1,360 @@
+\ifglsentryexists{UnB}{}%
+{%
+\gls@defglossaryentry{UnB}%
+{%
+name={UnB},%
+sort={UnB},%
+type={acronym},%
+first={Universidade de Bras\IeC {\'\i }lia\glsspace (UnB)},%
+firstplural={Universidade de Bras\IeC {\'\i }lias\glsspace (UnBs)},%
+text={UnB},%
+plural={UnBs},%
+description={Universidade de Brasília},%
+descriptionplural={Universidade de Brasília\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universidade de Bras\IeC {\'\i }lia},%
+longplural={Universidade de Bras\IeC {\'\i }lias},%
+short={UnB},%
+shortplural={UnBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CIC}{}%
+{%
+\gls@defglossaryentry{CIC}%
+{%
+name={CIC},%
+sort={CIC},%
+type={acronym},%
+first={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o\glsspace (CIC)},%
+firstplural={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}os\glsspace (CICs)},%
+text={CIC},%
+plural={CICs},%
+description={Departamento de Ciência da Computação},%
+descriptionplural={Departamento de Ciência da Computação\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o},%
+longplural={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}os},%
+short={CIC},%
+shortplural={CICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CTAN}{}%
+{%
+\gls@defglossaryentry{CTAN}%
+{%
+name={CTAN},%
+sort={CTAN},%
+type={acronym},%
+first={Comprehensive T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ Archive Network\glsspace (CTAN)},%
+firstplural={Comprehensive T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ Archive Networks\glsspace (CTANs)},%
+text={CTAN},%
+plural={CTANs},%
+description={Comprehensive \TeX \ Archive Network},%
+descriptionplural={Comprehensive \TeX \ Archive Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Comprehensive T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ Archive Network},%
+longplural={Comprehensive T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ Archive Networks},%
+short={CTAN},%
+shortplural={CTANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CEP}{}%
+{%
+\gls@defglossaryentry{CEP}%
+{%
+name={CEP},%
+sort={CEP},%
+type={acronym},%
+first={Comiss\IeC {\~a}o de \IeC {\'E}tica P\IeC {\'u}blica\glsspace (CEP)},%
+firstplural={Comiss\IeC {\~a}o de \IeC {\'E}tica P\IeC {\'u}blicas\glsspace (CEPs)},%
+text={CEP},%
+plural={CEPs},%
+description={Comissão de Ética Pública},%
+descriptionplural={Comissão de Ética Pública\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Comiss\IeC {\~a}o de \IeC {\'E}tica P\IeC {\'u}blica},%
+longplural={Comiss\IeC {\~a}o de \IeC {\'E}tica P\IeC {\'u}blicas},%
+short={CEP},%
+shortplural={CEPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CAPES}{}%
+{%
+\gls@defglossaryentry{CAPES}%
+{%
+name={CAPES},%
+sort={CAPES},%
+type={acronym},%
+first={Coordena\IeC {\c c}\IeC {\~a}o de Aperfei\IeC {\c c}oamento de Pessoal de N\IeC {\'\i }vel Superior\glsspace (CAPES)},%
+firstplural={Coordena\IeC {\c c}\IeC {\~a}o de Aperfei\IeC {\c c}oamento de Pessoal de N\IeC {\'\i }vel Superiors\glsspace (CAPESs)},%
+text={CAPES},%
+plural={CAPESs},%
+description={Coordenação de Aperfeiçoamento de Pessoal de Nível Superior},%
+descriptionplural={Coordenação de Aperfeiçoamento de Pessoal de Nível Superior\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Coordena\IeC {\c c}\IeC {\~a}o de Aperfei\IeC {\c c}oamento de Pessoal de N\IeC {\'\i }vel Superior},%
+longplural={Coordena\IeC {\c c}\IeC {\~a}o de Aperfei\IeC {\c c}oamento de Pessoal de N\IeC {\'\i }vel Superiors},%
+short={CAPES},%
+shortplural={CAPESs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CDU}{}%
+{%
+\gls@defglossaryentry{CDU}%
+{%
+name={CDU},%
+sort={CDU},%
+type={acronym},%
+first={Classifica\IeC {\c c}\IeC {\~a}o Decimal Universal\glsspace (CDU)},%
+firstplural={Classifica\IeC {\c c}\IeC {\~a}o Decimal Universals\glsspace (CDUs)},%
+text={CDU},%
+plural={CDUs},%
+description={Classificação Decimal Universal},%
+descriptionplural={Classificação Decimal Universal\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Classifica\IeC {\c c}\IeC {\~a}o Decimal Universal},%
+longplural={Classifica\IeC {\c c}\IeC {\~a}o Decimal Universals},%
+short={CDU},%
+shortplural={CDUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{LISA}{}%
+{%
+\gls@defglossaryentry{LISA}%
+{%
+name={LISA},%
+sort={LISA},%
+type={acronym},%
+first={Laborat\IeC {\'o}rio de Imagens, Sinais e \IeC {\'A}udio\glsspace (LISA)},%
+firstplural={Laborat\IeC {\'o}rio de Imagens, Sinais e \IeC {\'A}udios\glsspace (LISAs)},%
+text={LISA},%
+plural={LISAs},%
+description={Laboratório de Imagens, Sinais e Áudio},%
+descriptionplural={Laboratório de Imagens, Sinais e Áudio\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Laborat\IeC {\'o}rio de Imagens, Sinais e \IeC {\'A}udio},%
+longplural={Laborat\IeC {\'o}rio de Imagens, Sinais e \IeC {\'A}udios},%
+short={LISA},%
+shortplural={LISAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CMC}{}%
+{%
+\gls@defglossaryentry{CMC}%
+{%
+name={CMC},%
+sort={CMC},%
+type={acronym},%
+first={Cumulative Match Characteristic\glsspace (CMC)},%
+firstplural={Cumulative Match Characteristics\glsspace (CMCs)},%
+text={CMC},%
+plural={CMCs},%
+description={Cumulative Match Characteristic},%
+descriptionplural={Cumulative Match Characteristic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cumulative Match Characteristic},%
+longplural={Cumulative Match Characteristics},%
+short={CMC},%
+shortplural={CMCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ROC}{}%
+{%
+\gls@defglossaryentry{ROC}%
+{%
+name={ROC},%
+sort={ROC},%
+type={acronym},%
+first={Receiver Operating Characteristic\glsspace (ROC)},%
+firstplural={Receiver Operating Characteristics\glsspace (ROCs)},%
+text={ROC},%
+plural={ROCs},%
+description={Receiver Operating Characteristic},%
+descriptionplural={Receiver Operating Characteristic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Receiver Operating Characteristic},%
+longplural={Receiver Operating Characteristics},%
+short={ROC},%
+shortplural={ROCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AFIS}{}%
+{%
+\gls@defglossaryentry{AFIS}%
+{%
+name={AFIS},%
+sort={AFIS},%
+type={acronym},%
+first={Automated Fingerprint Identification System\glsspace (AFIS)},%
+firstplural={Automated Fingerprint Identification Systems\glsspace (AFISs)},%
+text={AFIS},%
+plural={AFISs},%
+description={Automated Fingerprint Identification System},%
+descriptionplural={Automated Fingerprint Identification System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Automated Fingerprint Identification System},%
+longplural={Automated Fingerprint Identification Systems},%
+short={AFIS},%
+shortplural={AFISs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RTFI}{}%
+{%
+\gls@defglossaryentry{RTFI}%
+{%
+name={RTFI},%
+sort={RTFI},%
+type={acronym},%
+first={Reflection-based Touchless Finger Imaging\glsspace (RTFI)},%
+firstplural={Reflection-based Touchless Finger Imagings\glsspace (RTFIs)},%
+text={RTFI},%
+plural={RTFIs},%
+description={Reflection-based Touchless Finger Imaging},%
+descriptionplural={Reflection-based Touchless Finger Imaging\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Reflection-based Touchless Finger Imaging},%
+longplural={Reflection-based Touchless Finger Imagings},%
+short={RTFI},%
+shortplural={RTFIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TTFI}{}%
+{%
+\gls@defglossaryentry{TTFI}%
+{%
+name={TTFI},%
+sort={TTFI},%
+type={acronym},%
+first={Transmission-based Touchless Finger Imaging\glsspace (TTFI)},%
+firstplural={Transmission-based Touchless Finger Imagings\glsspace (TTFIs)},%
+text={TTFI},%
+plural={TTFIs},%
+description={Transmission-based Touchless Finger Imaging},%
+descriptionplural={Transmission-based Touchless Finger Imaging\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission-based Touchless Finger Imaging},%
+longplural={Transmission-based Touchless Finger Imagings},%
+short={TTFI},%
+shortplural={TTFIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

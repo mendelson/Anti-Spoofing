@@ -1,0 +1,6 @@
+PWD C:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita
+INPUT c:/texlive/2015/texmf.cnf
+INPUT c:/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/Readme.md
+OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/Readme.log
