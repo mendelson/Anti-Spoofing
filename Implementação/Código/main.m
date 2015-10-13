@@ -31,11 +31,11 @@ end
 warning ('off', 'images:initSize:adjustingMag');
 
 %% Opening input image
-input = imread('a.pgm');
+% input = imread('a.pgm');
 % input = imread('1/SI-2_g20_2_10_0.pgm');
 % input = imread('6/SI-6_g20_2_3_2.pgm');
 % input = imread('13/SI-13_g12_2_3_0.pgm');
-% input = imread('15/SI-15_g63_2_2_0.pgm');
+input = imread('15/SI-15_g63_2_2_1.pgm');
 % input = imread('17/SI-17_g12_2_5_0.pgm');
 % input = imread('19/SI-19_g12_2_1_2.pgm');
 
@@ -57,7 +57,7 @@ end
 similarity = evaluateShape(aoi);
 
 %% Getting image's texture
-textureDescriptor = getTexture(aoi)
+textureDescriptor = getTexture(aoi);
 
 %% Exiting
 fprintf('\nDONE!\n');

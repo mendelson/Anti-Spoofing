@@ -16,12 +16,13 @@ classdef Parameters
         showRawAOIMask = false;
         showAOIMask = false;
         showAOI = true;
+        showTextureDescriptor = true;
         
         %% Parallelism parameters
         useParallel = true;
         useSpecificPoolSize = true; % matlab uses a default number of pools
                                     % if it is not specified
-        poolSize = 12;
+        poolSize = 4;
     end
     
     methods
