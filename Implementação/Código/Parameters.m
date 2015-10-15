@@ -10,12 +10,12 @@ classdef Parameters
         quantDimension = 5; %expected to be an odd value
         ILBPNeighborhoodDimension = 3; %expected to be an odd value
         
-        %% Images to be displayed
+        %% Data to be displayed
         showOriginalImage = true;
-        showBlurredImage = true;
+        showBlurredImage = false;
         showRawAOIMask = false;
         showAOIMask = false;
-        showAOI = true;
+        showAOI = false;
         showTextureDescriptor = true;
         
         %% Parallelism parameters

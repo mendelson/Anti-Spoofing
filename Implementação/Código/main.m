@@ -31,11 +31,15 @@ end
 warning ('off', 'images:initSize:adjustingMag');
 
 %% Opening input image
+inputFolder = '1/';
+inputFile = 'SI-2_g20_2_10_0';
+inputFileExtension = '.pgm';
+
 % input = imread('a.pgm');
-% input = imread('1/SI-2_g20_2_10_0.pgm');
+input = imread(strcat(inputFolder, inputFile, inputFileExtension));
 % input = imread('6/SI-6_g20_2_3_2.pgm');
 % input = imread('13/SI-13_g12_2_3_0.pgm');
-input = imread('15/SI-15_g63_2_2_1.pgm');
+% input = imread('15/SI-15_g63_2_2_1.pgm');
 % input = imread('17/SI-17_g12_2_5_0.pgm');
 % input = imread('19/SI-19_g12_2_1_2.pgm');
 
@@ -58,6 +62,9 @@ similarity = evaluateShape(aoi);
 
 %% Getting image's texture
 textureDescriptor = getTexture(aoi);
+fprintf('\nSaving texture descriptor...\n');
+save(strcat('textureDescriptors/', inputFolder, inputFile, '.mat'), 'textureDescriptor');
+% load(strcat('textureDescriptors/', inputFolder, inputFile, '.mat'), 'textureDescriptor');
 
 %% Exiting
 fprintf('\nDONE!\n');
