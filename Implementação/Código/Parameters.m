@@ -11,12 +11,12 @@ classdef Parameters
         ILBPNeighborhoodDimension = 3; %expected to be an odd value
         
         %% Data to be displayed
-        showOriginalImage = true;
+        showOriginalImage = false;
         showBlurredImage = false;
         showRawAOIMask = false;
         showAOIMask = false;
         showAOI = false;
-        showTextureDescriptor = true;
+        showTextureDescriptor = false;
         
         %% Parallelism parameters
         useParallel = true;

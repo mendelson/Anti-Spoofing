@@ -18,8 +18,7 @@ if parameter.useParallel
     parfor i = padding + 1:height - padding
         for j = padding + 1:width - padding
             if input(i, j) ~= 0
-                key = getILBPCode(input(i-padding:i+padding, j-padding:j+padding), parameter.ILBPNeighborhoodDimension, parameter.useParallel);
-
+                key = getILBPCode(input(i-padding:i+padding, j-padding:j+padding), parameter.ILBPNeighborhoodDimension);
                 ILBPCodes(i, j) = key;
             end
         end
