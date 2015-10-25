@@ -14,14 +14,18 @@ while abs(previousThreshold - threshold) >= parameter.thresholdPrecision
     
     set1 = [];
     set2 = [];
+    positionSet1 = 1;
+    positionSet2 = 1;
     
     for i = 1:height
         for j = 1:width
             pixel = input(i, j);
             if pixel > threshold
-                set1(end + 1) = pixel;
+                set1(positionSet1) = pixel;
+                positionSet1 = positionSet1 + 1;
             else
-                set2(end + 1) = pixel;
+                set2(positionSet2) = pixel;
+                positionSet2 = positionSet2 + 1;
             end
         end
     end

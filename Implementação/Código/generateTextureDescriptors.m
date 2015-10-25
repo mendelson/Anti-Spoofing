@@ -13,35 +13,20 @@ loadParameters;
 global parameter;
 
 %% Enabling parallel processing
-if parameter.useParallel
-    if parameter.useSpecificPoolSize
-        p = gcp('nocreate');
+setupNumberOfThreadsToBeUsed
 
-        if ~isempty(p) && p.NumWorkers ~= parameter.poolSize
-            delete(gcp);
-            parpool('local', parameter.poolSize);
-        elseif isempty(p)
-            parpool('local', parameter.poolSize);
-        end
-    end
-else
-    p = gcp('nocreate');
-    
-    if ~isempty(p)
-        delete(gcp);
-    end
-end
-
+%% Generating textures
 inputFolderRoot = 'input/';
 
 textureDescriptorsFolderRoot = 'textureDescriptors/';
 
 folderExists = 1;
-initialFolderNumber = 19;
+initialFolderNumber = 1;
 currentFolderNumber = initialFolderNumber - 1;
 counter = 0;
 
 while folderExists == 1
+    clc;
     currentFolderNumber = currentFolderNumber + 1;
     
     if exist(strcat(inputFolderRoot, num2str(currentFolderNumber)), 'dir') ~= 7
