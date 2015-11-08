@@ -3,7 +3,7 @@ Nada aqui ainda
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Spoofing - Motivação/justificativa do projeto} \label{spoofing}
+\section{Spoofing - Motivação e justificativa do projeto} \label{spoofing}%
 Sistemas não supervisionados são o foco do trabalho.
 Foco: anti-spoofing para sistemas biométricos 3D touchless não supervisionados
 Ver o ``Presentation attack...'', que inclusive classifica os tipos de anti-spoofing (estático e dinâmico).
@@ -11,17 +11,16 @@ Ver o ``Presentation attack...'', que inclusive classifica os tipos de anti-spoo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Métricas}
+\section{Métricas}%
 Métricas (os dois primeiros parágrafos são do guidelines):
 The two most common metrics used to report biometric system matching accuracy are the Cumulative Match Characteristic (CMC) curve and Receiver Operating Characteristic (ROC) curve.2 But, the CMC curve is only applicable for closed.set identification and not open.set identification (where the true mate of the probe may not be present in the gallery). Consequently, the CMC curve may not accurately characterize the performance of a biometric system [7]. Open.set identification performance is typically reported in terms of False Positive Identification Rate (FPIR) and False Negative Identification Rate (FNIR) [6].
 
 When reporting the ROC curve, the intended application will dictate the operating range (threshold on the match score) where competing systems should be evaluated. There are not many applications where a False Accept Rate (FAR)3 above 1.0\% is acceptable, so the ROC curve should be appropriately scaled. Similarly, equal error rate (EER) of a system may not always provide useful information, as it is independent of the application.specific FAR. A confidence band around the ROC curve should also be reported to understand the robustness of the solution.
 
-The ROC curve, measuring verification performance, is based
-on aggregate statistics of match scores corresponding to
-all biometric samples, while the CMC curve, measuring
-identification performance, is based on the relative ordering
-of match scores corresponding to each biometric sample
-(in closed-set identification)
+The ROC curve, measuring verification performance, is based on aggregate statistics of match scores corresponding to all biometric samples, while the CMC curve,measuring identification performance, is based on the relative ordering of match scores corresponding to each biometric sample (in closed-set identification).
 
-To ensure the robustness of biometrics systems, it is necessary to train and evaluate them on data with characteristics similar to what would be encountered in the end application [5]."
+To ensure the robustness of biometrics systems, it is necessary to train and evaluate them on data with characteristics similar to what would be encountered in the end application [5].
+
+T. Ahonen, J. Matas, C. He, and M. Pietikäinen, “Rotation invariant
+image description with local binary pattern histogram fourier features,” in
+Proc. Scandinavian Conference on Image Analysis (SCIA), 2009.

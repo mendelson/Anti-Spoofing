@@ -1,11 +1,11 @@
-PWD C:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita
+PWD C:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Anti-Spoofing/Parte escrita
 INPUT c:/texlive/2015/texmf.cnf
 INPUT c:/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.tex
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.log
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/UnB-CIC.cls
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/UnB-CIC.cls
+INPUT ./monografia.tex
+OUTPUT monografia.log
+INPUT UnB-CIC.cls
+INPUT UnB-CIC.cls
 INPUT c:/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT c:/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
@@ -178,8 +178,8 @@ INPUT c:/texlive/2015/texmf-dist/tex/latex/supertabular/supertabular.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/supertabular/supertabular.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.glo
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.acn
+OUTPUT monografia.glo
+OUTPUT monografia.acn
 INPUT c:/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
@@ -194,9 +194,9 @@ INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.aux
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.aux
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.aux
+INPUT monografia.aux
+INPUT monografia.aux
+OUTPUT monografia.aux
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
@@ -206,36 +206,36 @@ INPUT c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.out
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.out
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.out
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.out
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.out
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.out
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.out
+INPUT monografia.out
+INPUT monografia.out
+INPUT monografia.out
+INPUT monografia.out
+OUTPUT monografia.pdf
+INPUT ./monografia.out
+INPUT ./monografia.out
+OUTPUT monografia.out
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.glsdefs
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.glsdefs
+INPUT monografia.glsdefs
+INPUT monografia.glsdefs
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/hypcap.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/hypcap.sty
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/positivo_cor.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/positivo_cor.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/positivo_cor.pdf
+INPUT img/positivo_cor.pdf
+INPUT ./img/positivo_cor.pdf
+INPUT ./img/positivo_cor.pdf
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.ist
+OUTPUT monografia.ist
 INPUT c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/positivo_cor.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/positivo_cor.pdf
+INPUT img/positivo_cor.pdf
+INPUT ./img/positivo_cor.pdf
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
@@ -256,54 +256,54 @@ INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/dedicatoria.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/dedicatoria.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/dedicatoria.tex
+INPUT tex/dedicatoria.tex
+INPUT tex/dedicatoria.tex
+INPUT tex/dedicatoria.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/agradecimentos.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/agradecimentos.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/agradecimentos.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/resumo.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/resumo.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/resumo.tex
+INPUT tex/agradecimentos.tex
+INPUT tex/agradecimentos.tex
+INPUT tex/agradecimentos.tex
+INPUT tex/resumo.tex
+INPUT tex/resumo.tex
+INPUT tex/resumo.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmtti10.tfm
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/abstract.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/abstract.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/abstract.tex
+INPUT tex/abstract.tex
+INPUT tex/abstract.tex
+INPUT tex/abstract.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/bibliografia.bib
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.toc
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.toc
+INPUT bibliografia.bib
+INPUT monografia.toc
+INPUT monografia.toc
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmtk10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.toc
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.lof
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.lof
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.lof
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.lot
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.lot
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.lot
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/siglas.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/siglas.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/siglas.tex
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.glsdefs
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.acr
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.acr
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.acr
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/1_Introducao.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/1_Introducao.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/1_Introducao.tex
+OUTPUT monografia.toc
+INPUT monografia.lof
+INPUT monografia.lof
+OUTPUT monografia.lof
+INPUT monografia.lot
+INPUT monografia.lot
+OUTPUT monografia.lot
+INPUT tex/siglas.tex
+INPUT tex/siglas.tex
+INPUT tex/siglas.tex
+OUTPUT monografia.glsdefs
+INPUT monografia.acr
+INPUT monografia.acr
+INPUT monografia.acr
+INPUT tex/1_Introducao.tex
+INPUT tex/1_Introducao.tex
+INPUT tex/1_Introducao.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT c:/texlive/2015/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/fingerprint.jpg
+INPUT img/fingerprint.jpg
+INPUT ./img/fingerprint.jpg
+INPUT ./img/fingerprint.jpg
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
@@ -317,111 +317,111 @@ INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/biometric_fluxogram.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/biometric_fluxogram.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/biometric_fluxogram.jpg
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/swipe_fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/swipe_fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/swipe_fingerprint.jpg
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/touch_based_fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/touch_based_fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/touch_based_fingerprint.jpg
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/touchless_fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/touchless_fingerprint.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/touchless_fingerprint.jpg
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/3D_touchless_scheme.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/3D_touchless_scheme.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/3D_touchless_scheme.jpg
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/touchless_fingerprint_side.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/touchless_fingerprint_side.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/touchless_fingerprint_side.jpg
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/2_Spoofing.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/2_Spoofing.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/2_Spoofing.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/3_Imagens.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/3_Imagens.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/3_Imagens.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/1_Introducao_original.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/1_Introducao_original.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/1_Introducao_original.tex
+INPUT img/biometric_fluxogram.jpg
+INPUT ./img/biometric_fluxogram.jpg
+INPUT ./img/biometric_fluxogram.jpg
+INPUT img/swipe_fingerprint.jpg
+INPUT ./img/swipe_fingerprint.jpg
+INPUT ./img/swipe_fingerprint.jpg
+INPUT img/touch_based_fingerprint.jpg
+INPUT ./img/touch_based_fingerprint.jpg
+INPUT ./img/touch_based_fingerprint.jpg
+INPUT img/touchless_fingerprint.jpg
+INPUT ./img/touchless_fingerprint.jpg
+INPUT ./img/touchless_fingerprint.jpg
+INPUT img/3D_touchless_scheme.jpg
+INPUT ./img/3D_touchless_scheme.jpg
+INPUT ./img/3D_touchless_scheme.jpg
+INPUT img/touchless_fingerprint_side.jpg
+INPUT ./img/touchless_fingerprint_side.jpg
+INPUT ./img/touchless_fingerprint_side.jpg
+INPUT tex/2_Spoofing.tex
+INPUT tex/2_Spoofing.tex
+INPUT tex/2_Spoofing.tex
+INPUT tex/3_Imagens.tex
+INPUT tex/3_Imagens.tex
+INPUT tex/3_Imagens.tex
+INPUT tex/1_Introducao_original.tex
+INPUT tex/1_Introducao_original.tex
+INPUT tex/1_Introducao_original.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/miktex.png
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/miktex.png
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/miktex.png
+INPUT img/miktex.png
+INPUT ./img/miktex.png
+INPUT ./img/miktex.png
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmtk10.tfm
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/2_UnB-CIC.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/2_UnB-CIC.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/2_UnB-CIC.tex
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/contorno_preto.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/contorno_preto.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/contorno_preto.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/positivo_cor.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/positivo_cor.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/img/positivo_cor.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/img/positivo_cor.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/3_TCC.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/3_TCC.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/3_TCC.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/4_Apresentacao.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/4_Apresentacao.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/4_Apresentacao.tex
+INPUT tex/2_UnB-CIC.tex
+INPUT tex/2_UnB-CIC.tex
+INPUT tex/2_UnB-CIC.tex
+INPUT img/contorno_preto.pdf
+INPUT ./img/contorno_preto.pdf
+INPUT ./img/contorno_preto.pdf
+INPUT img/positivo_cor.pdf
+INPUT ./img/positivo_cor.pdf
+INPUT img/positivo_cor.pdf
+INPUT ./img/positivo_cor.pdf
+INPUT tex/3_TCC.tex
+INPUT tex/3_TCC.tex
+INPUT tex/3_TCC.tex
+INPUT tex/4_Apresentacao.tex
+INPUT tex/4_Apresentacao.tex
+INPUT tex/4_Apresentacao.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.bbl
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.bbl
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.brf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.brf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.brf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.brf
-OUTPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.brf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/Apendice_Fichamento.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/Apendice_Fichamento.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/Apendice_Fichamento.tex
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/doc/Fichamento.pdf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/Anexo1.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/Anexo1.tex
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/tex/Anexo1.tex
+INPUT monografia.bbl
+INPUT monografia.bbl
+INPUT monografia.brf
+INPUT monografia.brf
+INPUT ./monografia.brf
+INPUT ./monografia.brf
+OUTPUT monografia.brf
+INPUT tex/Apendice_Fichamento.tex
+INPUT tex/Apendice_Fichamento.tex
+INPUT tex/Apendice_Fichamento.tex
+INPUT doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT doc/Fichamento.pdf
+INPUT ./doc/Fichamento.pdf
+INPUT tex/Anexo1.tex
+INPUT tex/Anexo1.tex
+INPUT tex/Anexo1.tex
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Final\Biometria\Parte escrita/monografia.aux
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.out
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.out
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.brf
-INPUT c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte escrita/monografia.brf
+INPUT monografia.aux
+INPUT ./monografia.out
+INPUT ./monografia.out
+INPUT ./monografia.brf
+INPUT ./monografia.brf
 INPUT c:/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT c:/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT c:/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc

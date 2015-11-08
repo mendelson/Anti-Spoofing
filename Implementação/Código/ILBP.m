@@ -1,6 +1,4 @@
 function [ textureDescriptor ] = ILBP( input )
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
 
 global parameter;
 
@@ -8,7 +6,6 @@ padding = (parameter.ILBPNeighborhoodDimension - 1)/2;
 
 [height, width] = size(input);
 
-% textureDescriptor = containers.Map('KeyType', 'int64', 'ValueType', 'int64');
 textureDescriptor = zeros(1, 2^(parameter.ILBPNeighborhoodDimension^2));
 
 ILBPCodes = zeros(height, width);
@@ -42,11 +39,6 @@ for i = 1:height
             textureDescriptor(key) = textureDescriptor(key) + 1;
         end
     end
-end
-
-if parameter.showTextureDescriptor
-    figure, plot(textureDescriptor);
-    title('Texture Descriptor');
 end
 
 end

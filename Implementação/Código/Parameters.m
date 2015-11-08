@@ -16,13 +16,19 @@ classdef Parameters
         showRawAOIMask = false;
         showAOIMask = false;
         showAOI = false;
+        showEqualizedAOI = false;
         showTextureDescriptor = false;
+        showNormalizedTextureDescriptor = false;
         
         %% Parallelism parameters
         useParallel = true;
         useSpecificPoolSize = true; % matlab uses a default number of pools
                                     % if it is not specified
         poolSize = 4;
+        
+        %% MEX-files parameters
+        useMEXFiles = true;
+        MEXFilesList = cellstr(['getILBPBinaryWord_'; 'getPossibleCodes_ ']);
     end
     
     methods

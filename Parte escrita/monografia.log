@@ -1,17 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.12)  7 OCT 2015 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.12)  5 NOV 2015 11:15
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**"c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fi
-nal/Biometria/Parte escrita/monografia.tex"
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/monografia.tex
+**./monografia.tex
+(./monografia.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
-
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/UnB-CIC.cls
+(./UnB-CIC.cls
 Document Class: UnB-CIC 2014/07/10 Classe para trabalhos CIC UnB
 (c:/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -734,9 +729,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \AM@toc@title=\toks33
 \c@AM@survey=\count151
 \AM@templatesizebox=\box36
-)
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.aux)
+) (./monografia.aux)
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -782,11 +775,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 42.
 LaTeX Info: Redefining \pageref on input line 42.
 LaTeX Info: Redefining \nameref on input line 42.
-
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.out)
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.out)
+(./monografia.out) (./monografia.out)
 \@outlinefile=\write6
 \openout6 = `monografia.out'.
 
@@ -837,10 +826,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.glsdefs) (c:/texlive/2015/texmf-dist/tex/l
-atex/oberdiek/hypcap.sty
+(./monografia.glsdefs) (c:/texlive/2015/texmf-dist/tex/latex/oberdiek/hypcap.st
+y
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 )
 \len@brasiliaw=\skip63
@@ -873,9 +860,8 @@ Package pdftex.def Info: img/positivo_cor.pdf used on input line 42.
 
 
 
-{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/Mateus
-Mendelson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Part
-e escrita/img/positivo_cor.pdf>] [2]
+{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/positivo_
+cor.pdf>] [2]
 \len@brasiliaw=\skip68
 \len@uadesch=\skip69
 \len@uacaph=\skip70
@@ -911,19 +897,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 42.
 [3
 
-]
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/dedicatoria.tex) [4
+] (./tex/dedicatoria.tex) [4
 
 
-]
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/agradecimentos.tex) [5
+] (./tex/agradecimentos.tex) [5
 
 
-]
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/resumo.tex
+] (./tex/resumo.tex
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 16.
 (c:/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -936,9 +916,7 @@ Package babel Warning: You haven't loaded the language english yet
 (babel)                I'll proceed, but expect unexpected results.
 (babel)                Reported on input line 42.
 
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/abstract.tex)
+(./tex/abstract.tex)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining portuges shorthand "|
@@ -946,9 +924,7 @@ Package babel Info: Redefining portuges shorthand "|
 [7
 
 
-]
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.toc
+] (./monografia.toc
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 29.
 Package babel Info: Redefining portuges shorthand "|
@@ -965,9 +941,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
-[9]
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.lof)
+[9] (./monografia.lof)
 \tf@lof=\write8
 \openout8 = `monografia.lof'.
 
@@ -977,21 +951,15 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
 [10
 
-]
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.lot)
+] (./monografia.lot)
 \tf@lot=\write9
 \openout9 = `monografia.lot'.
 
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/siglas.tex
+(./tex/siglas.tex
 \@gls@deffile=\write10
 \openout10 = `monografia.glsdefs'.
 
-)
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.acr
+) (./monografia.acr
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -1010,9 +978,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/1_Introducao.tex
+(./tex/1_Introducao.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
@@ -1059,9 +1025,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
-[4 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto F
-inal/Biometria/Parte escrita/img/fingerprint.jpg>] <img/biometric_fluxogram.jpg
-, id=442, 598.48593pt x 155.83218pt>
+[4 <./img/fingerprint.jpg>] <img/biometric_fluxogram.jpg, id=442, 598.48593pt x
+ 155.83218pt>
 File: img/biometric_fluxogram.jpg Graphic file (type jpg)
 <use img/biometric_fluxogram.jpg>
 Package pdftex.def Info: img/biometric_fluxogram.jpg used on input line 97.
@@ -1081,9 +1046,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 124.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 124.
-[6 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto F
-inal/Biometria/Parte escrita/img/biometric_fluxogram.jpg>] <img/swipe_fingerpri
-nt.jpg, id=469, 943.525pt x 476.78125pt>
+[6 <./img/biometric_fluxogram.jpg>] <img/swipe_fingerprint.jpg, id=469, 943.525
+pt x 476.78125pt>
 File: img/swipe_fingerprint.jpg Graphic file (type jpg)
 <use img/swipe_fingerprint.jpg>
 Package pdftex.def Info: img/swipe_fingerprint.jpg used on input line 129.
@@ -1102,15 +1066,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
-[7 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto F
-inal/Biometria/Parte escrita/img/swipe_fingerprint.jpg>]
+[7 <./img/swipe_fingerprint.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 156.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 156.
-[8 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto F
-inal/Biometria/Parte escrita/img/touch_based_fingerprint.jpg>] <img/touchless_f
-ingerprint.jpg, id=485, 1284.8pt x 1027.84pt>
+[8 <./img/touch_based_fingerprint.jpg>] <img/touchless_fingerprint.jpg, id=485,
+ 1284.8pt x 1027.84pt>
 File: img/touchless_fingerprint.jpg Graphic file (type jpg)
 <use img/touchless_fingerprint.jpg>
 Package pdftex.def Info: img/touchless_fingerprint.jpg used on input line 157.
@@ -1130,16 +1092,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 170.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 170.
-[9 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto F
-inal/Biometria/Parte escrita/img/touchless_fingerprint.jpg> <c:/Users/MateusMen
-delson/Documents/UnB - Engenharia de Computação/Projeto Final/Biometria/Parte e
-scrita/img/3D_touchless_scheme.jpg>]
+[9 <./img/touchless_fingerprint.jpg> <./img/3D_touchless_scheme.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 190.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 190.
-[10 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto 
-Final/Biometria/Parte escrita/img/touchless_fingerprint_side.jpg>])
+[10 <./img/touchless_fingerprint_side.jpg>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
@@ -1148,31 +1106,18 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/2_Spoofing.tex
+(./tex/2_Spoofing.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 21.
 [12
 
 ])
-Runaway argument?
-! File ended while scanning use of \language@active@arg".
-<inserted text> 
-                \par 
-l.46     \capitulo{2_Spoofing}{Spoofing}
-                                        %
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 47.
 Package babel Info: Redefining portuges shorthand "|
@@ -1181,9 +1126,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 47.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/3_Imagens.tex)
+(./tex/3_Imagens.tex)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
@@ -1194,9 +1137,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/1_Introducao_original.tex
+(./tex/1_Introducao_original.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
@@ -1267,8 +1208,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 161.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 161.
-[18 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto 
-Final/Biometria/Parte escrita/img/miktex.png>]
+[18 <./img/miktex.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 168--168
 [][][]$\T1/lmtt/m/n/10 https : / / www . capes . gov . br / images / stories / 
 download / diversos / OrientacoesCapes _
@@ -1293,9 +1233,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 49.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/2_UnB-CIC.tex
+(./tex/2_UnB-CIC.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining portuges shorthand "|
@@ -1359,8 +1297,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 288.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 288.
-[25 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto 
-Final/Biometria/Parte escrita/img/contorno_preto.pdf>]
+[25 <./img/contorno_preto.pdf>]
 File: img/positivo_cor.pdf Graphic file (type pdf)
 <use img/positivo_cor.pdf>
 Package pdftex.def Info: img/positivo_cor.pdf used on input line 301.
@@ -1403,9 +1340,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 50.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/3_TCC.tex
+(./tex/3_TCC.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
@@ -1444,9 +1379,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 7.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 51.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/4_Apresentacao.tex
+(./tex/4_Apresentacao.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 10.
 
@@ -1489,11 +1422,7 @@ Package babel Info: Redefining portuges shorthand "|
 [37]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
-
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.bbl
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.brf)
+(./monografia.bbl (./monografia.brf)
 \tf@brf=\write11
 \openout11 = `monografia.brf'.
 
@@ -1515,10 +1444,8 @@ Package babel Info: Redefining portuges shorthand "|
 Ap\^endice A.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/Apendice_Fichamento.tex <doc/Fichamento.pdf, id=8
-30, 597.50829pt x 845.0471pt>
+(./tex/Apendice_Fichamento.tex <doc/Fichamento.pdf, id=830, 597.50829pt x 845.0
+471pt>
 File: doc/Fichamento.pdf Graphic file (type pdf)
 <use doc/Fichamento.pdf>
 Package pdftex.def Info: doc/Fichamento.pdf used on input line 1.
@@ -1559,9 +1486,8 @@ File: doc/Fichamento.pdf Graphic file (type pdf)
 <use doc/Fichamento.pdf, page 1>
 Package pdftex.def Info: doc/Fichamento.pdf, page1 used on input line 1.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[41 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto 
-Final/Biometria/Parte escrita/doc/Fichamento.pdf>] <doc/Fichamento.pdf, id=873,
- page=2, 597.50829pt x 845.0471pt>
+[41 <./doc/Fichamento.pdf>] <doc/Fichamento.pdf, id=873, page=2, 597.50829pt x 
+845.0471pt>
 File: doc/Fichamento.pdf Graphic file (type pdf)
 <use doc/Fichamento.pdf, page 2>
 Package pdftex.def Info: doc/Fichamento.pdf, page2 used on input line 1.
@@ -1578,9 +1504,8 @@ File: doc/Fichamento.pdf Graphic file (type pdf)
 <use doc/Fichamento.pdf, page 2>
 Package pdftex.def Info: doc/Fichamento.pdf, page2 used on input line 1.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[42 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto 
-Final/Biometria/Parte escrita/doc/Fichamento.pdf>] <doc/Fichamento.pdf, id=883,
- page=3, 597.50829pt x 845.0471pt>
+[42 <./doc/Fichamento.pdf>] <doc/Fichamento.pdf, id=883, page=3, 597.50829pt x 
+845.0471pt>
 File: doc/Fichamento.pdf Graphic file (type pdf)
 <use doc/Fichamento.pdf, page 3>
 Package pdftex.def Info: doc/Fichamento.pdf, page3 used on input line 1.
@@ -1597,16 +1522,13 @@ File: doc/Fichamento.pdf Graphic file (type pdf)
 <use doc/Fichamento.pdf, page 3>
 Package pdftex.def Info: doc/Fichamento.pdf, page3 used on input line 1.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[43 <c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto 
-Final/Biometria/Parte escrita/doc/Fichamento.pdf>])
+[43 <./doc/Fichamento.pdf>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
 Anexo I.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
-
-(c:/Users/MateusMendelson/Documents/UnB - Engenharia de Computação/Projeto Fina
-l/Biometria/Parte escrita/tex/Anexo1.tex
+(./tex/Anexo1.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining portuges shorthand "|
@@ -1627,13 +1549,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
 [45]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
-
-(C:\Users\MateusMendelson\Documents\UnB - Engenharia de Computação\Projeto Fina
-l\Biometria\Parte escrita/monografia.aux)
+(./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 67C4E466BAA84531C77222CEC27A061F;3382.
+(rerunfilecheck)             Checksum: 40489FED01F62A507972B74AF6DAF061;3384.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: 8D4E6693E02B09C30C4EBC3087AC34F3;1194.
 
@@ -1650,13 +1570,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  )
 (\end occurred when \iffalse on line 126 was incomplete) 
 Here is how much of TeX's memory you used:
- 14095 strings out of 493091
- 213735 string characters out of 6138531
- 379120 words of memory out of 5000000
+ 14091 strings out of 493091
+ 207635 string characters out of 6138531
+ 379121 words of memory out of 5000000
  16952 multiletter control sequences out of 15000+600000
  92217 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,69p,2069b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,18n,69p,1965b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): 
 name{Hfootnote.26} has been referenced but does not exist, replaced by a fixed 
 one
@@ -1768,9 +1688,7 @@ pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/20
 15/texmf-dist/fonts/type1/public/lm/lmtti10.pfb><c:/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2015/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm2074.pfb>
-Output written on "C:\Users\MateusMendelson\Documents\UnB - Engenharia de Compu
-tação\Projeto Final\Biometria\Parte escrita/monografia.pdf" (57 pages, 1985599 
-bytes).
+Output written on monografia.pdf (57 pages, 1985004 bytes).
 PDF statistics:
  1020 PDF objects out of 1200 (max. 8388607)
  909 compressed objects within 10 object streams

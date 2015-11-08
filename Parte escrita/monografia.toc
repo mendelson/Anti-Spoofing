@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{Imageamento por Reflex\IeC {\~a}o}{10}{section*.11}
 \contentsline {subsubsection}{Imageamento por Transmiss\IeC {\~a}o}{11}{section*.12}
 \contentsline {chapter}{\numberline {2}Spoofing}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Spoofing - Motiva\IeC {\c c}\IeC {\~a}o/justificativa do projeto}{12}{section.2.1}
+\contentsline {section}{\numberline {2.1}Spoofing - Motiva\IeC {\c c}\IeC {\~a}o e justificativa do projeto}{12}{section.2.1}
 \contentsline {section}{\numberline {2.2}M\IeC {\'e}tricas}{12}{section.2.2}
 \contentsline {chapter}{\numberline {3}T\IeC {\'e}cnicas e Manipula\IeC {\c c}\IeC {\~a}o de Imagens}{14}{chapter.3}
 \contentsline {chapter}{\numberline {4}Introdu\IeC {\c c}\IeC {\~a}o}{15}{chapter.4}
