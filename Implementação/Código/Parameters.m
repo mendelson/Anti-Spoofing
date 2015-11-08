@@ -18,7 +18,7 @@ classdef Parameters
         showAOI = false;
         showEqualizedAOI = false;
         showTextureDescriptor = false;
-        showNormalizedTextureDescriptor = false;
+        showNormalizedTextureDescriptor = true;
         
         %% Parallelism parameters
         useParallel = true;

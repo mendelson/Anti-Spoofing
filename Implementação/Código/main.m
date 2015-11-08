@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% IF YOU DON'T WANT TO USE FUNCTIONS WRITEN IN C++, PLEASE, COMENT THE
-% CALL TO FUNCTIONS TERMINATED WITH AND UNDERSCORE ("_") AND UNCOMENT
-% THE CALL FOR MATLAB FUNCTIONS (THEY SHOULD BE ON THE LINE ABOVE).
-% ALSO, CHANGE THE VALUE OF 'Parameters.useMEXFiles' to 'false'.
-%
-% CURRENTLY, THEY ARE CALLED FROM: getILBPCode.
-%
+% IF YOU DON'T WANT TO USE FUNCTIONS WRITEN IN C++, PLEASE, COMENT THE %
+% CALL TO FUNCTIONS TERMINATED WITH AND UNDERSCORE ("_") AND UNCOMENT  %
+% THE CALL FOR MATLAB FUNCTIONS (THEY SHOULD BE ON THE LINE ABOVE).    %
+% ALSO, CHANGE THE VALUE OF 'Parameters.useMEXFiles' to 'false'.       %
+%                                                                      %
+% CURRENTLY, THEY ARE CALLED FROM: getILBPCode.                        %
+%                                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 close all;
@@ -18,14 +18,8 @@ loadParameters;
 global parameter;
 
 %% Compiling CPP files
-for i = 1:size(parameter.MEXFilesList, 1)
-    file = strcat(parameter.MEXFilesList(i, :), '.mexw64');
-    if exist(file{1, 1}, 'file') ~= 3
-        if parameter.useMEXFiles
-            compileCMEXFile(parameter.MEXFilesList{i, 1});
-            fprintf('\n');
-        end
-    end
+if parameter.useMEXFiles
+    compileCMEXFiles;
 end
 
 %% Enabling parallel processing

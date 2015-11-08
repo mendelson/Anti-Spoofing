@@ -31,5 +31,8 @@ if parameter.showNormalizedTextureDescriptor
     figure, plot(normalizedTextureDescriptor);
     title('Normalized Texture Descriptor');
 end
+
+glcm = getGLCM(equalizedAOI);
+
 end
 
