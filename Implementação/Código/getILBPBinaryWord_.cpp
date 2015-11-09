@@ -1,11 +1,12 @@
 #include "mex.h"
 
 /* The computational routine */
-void getILBPBinaryWord_(double *input, double *word, mwSize amountElements)
+void getILBPBinaryWord_(double *input, mwSize amountElementsmwSize, double *word)
 {
     double avg;
-    mwSize i;
+    int i;
     double sum = 0;
+    double amountElements = (double) amountElementsmwSize;
     
     for (i = 0; i < amountElements; i++) {
         sum += input[i];
@@ -32,12 +33,12 @@ void mexFunction( int nlhs, mxArray *plhs[],
 
     /* check for proper number of arguments */
     if(nrhs!=2) {
-        mexErrMsgIdAndTxt("getILBPBinaryWord:nrhs", "Two inputs required.");
+        mexErrMsgIdAndTxt("getILBPBinaryWord_:nrhs", "Two inputs required.");
     }
     
     /* check that number of rows in second input argument is 1 */
     if(mxGetM(prhs[0])!=1) {
-        mexErrMsgIdAndTxt("getILBPBinaryWord:notRowVector", "Input must be a row vector.");
+        mexErrMsgIdAndTxt("getILBPBinaryWord_:notRowVector", "Input must be a row vector.");
     }
     
     amountElements = mxGetScalar(prhs[1]);
@@ -52,5 +53,5 @@ void mexFunction( int nlhs, mxArray *plhs[],
     word = mxGetPr(plhs[0]);
 
     /* call the computational routine */
-    getILBPBinaryWord_(input, word, (mwSize)amountElements);
+    getILBPBinaryWord_(input, (mwSize)amountElements, word);
 }

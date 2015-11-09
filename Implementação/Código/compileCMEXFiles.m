@@ -11,7 +11,6 @@ for i = 1:size(parameter.MEXFilesList, 1)
     lastSrcModificationDateFile = strcat(lastSrcModificationDateFile{1, 1}, '.mat');
     
     if exist(lastSrcModificationDateFile, 'file') == 0 || exist(mexFileName{1, 1}, 'file') ~= 3
-%         fprintf('Alguem nao existe!');
         save(lastSrcModificationDateFile, 'lastSrcModificationDate');
         mex(srcFileName{1, 1})
 %         mex ('-g', srcFileName{1, 1) % use this one for debugging purposes
@@ -20,7 +19,6 @@ for i = 1:size(parameter.MEXFilesList, 1)
         storedSrcModificationDate = load(lastSrcModificationDateFile, 'lastSrcModificationDate');
         
         if strcmp(storedSrcModificationDate.lastSrcModificationDate, lastSrcModificationDate) ~= 1
-            fprintf('Sao datas diferentes!');
             save(lastSrcModificationDateFile, 'lastSrcModificationDate');
             mex(srcFileName{1, 1})
 %             mex ('-g', srcFileName{1, 1) % use this one for debugging purposes

@@ -33,6 +33,12 @@ if parameter.showNormalizedTextureDescriptor
 end
 
 glcm = getGLCM(equalizedAOI);
+stats = graycoprops(glcm, {'Contrast', 'Correlation', 'Energy', 'Homogeneity'});
+
+normalizedTextureDescriptor(end + 1) = mean(stats.Contrast);
+normalizedTextureDescriptor(end + 1) = mean(stats.Correlation);
+normalizedTextureDescriptor(end + 1) = mean(stats.Energy);
+normalizedTextureDescriptor(end + 1) = mean(stats.Homogeneity);
 
 end
 

@@ -2,18 +2,18 @@ close all;
 clear all;
 clc;
 
-%% Compiling C files
-% compileCMEXFiles;
-% 
-% hello;
-
 %% Loading parameters into global workspace
 loadParameters;
 
 global parameter;
 
+%% Compiling CPP files
+if parameter.useMEXFiles
+    compileCMEXFiles;
+end
+
 %% Enabling parallel processing
-setupNumberOfThreadsToBeUsed
+setupNumberOfThreadsToBeUsed;
 
 %% Generating textures
 inputFolderRoot = 'input/';
@@ -47,10 +47,9 @@ while folderExists == 1
 
             %% Getting AOI mask
             aoiMask = getAOIMask(input);
-            aoi = uint8(aoiMask).*input;
 
             %% Getting image's texture
-            textureDescriptor = getTexture(aoi);
+            textureDescriptor = getTexture(input, aoiMask);
             
             %% Saving image's texture
             if exist(strcat(textureDescriptorsFolderRoot, num2str(currentFolderNumber), '/'), 'dir') ~= 7

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % IF YOU DON'T WANT TO USE FUNCTIONS WRITEN IN C++, PLEASE, COMENT THE %
 % CALL TO FUNCTIONS TERMINATED WITH AND UNDERSCORE ("_") AND UNCOMENT  %
-% THE CALL FOR MATLAB FUNCTIONS (THEY SHOULD BE ON THE LINE ABOVE).    %
+% THE CALL FOR THE MATLAB FUNCTIONS (THEY SHOULD BE ON THE LINE ABOVE).%
 % ALSO, CHANGE THE VALUE OF 'Parameters.useMEXFiles' to 'false'.       %
 %                                                                      %
 % CURRENTLY, THEY ARE CALLED FROM: getILBPCode.                        %
@@ -41,9 +41,6 @@ aoiMask = getAOIMask(input);
 
 %% Getting image's texture
 textureDescriptor = getTexture(input, aoiMask);
-% fprintf('\nSaving texture descriptor...\n');
-% save(strcat('textureDescriptors/', inputFolder, inputFile, '.mat'), 'textureDescriptor');
-% load(strcat('textureDescriptors/', inputFolder, inputFile, '.mat'), 'textureDescriptor');
 
 %% Exiting
 fprintf('\nDONE!\n');
