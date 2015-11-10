@@ -28,7 +28,7 @@ classdef Parameters
         
         %% MEX-files parameters
         useMEXFiles = true;
-        MEXFilesList = cellstr(['getILBPBinaryWord_'; 'getPossibleCodes_ ']);
+        MEXFilesList = cellstr(['getILBPBinaryWord_'; 'getPossibleCodes_ '; 'decideQuant_      ']);
     end
     
     methods

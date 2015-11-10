@@ -3,8 +3,6 @@ clear all;
 clc;
 
 samplesFolderRoot = '../Samples/';
-sampleFile = 'SI-2_g20_2_10_0';
-sampleFileExtension = '.pgm';
 
 inputFolderRoot = 'input/';
 

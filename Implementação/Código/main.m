@@ -4,7 +4,7 @@
 % THE CALL FOR THE MATLAB FUNCTIONS (THEY SHOULD BE ON THE LINE ABOVE).%
 % ALSO, CHANGE THE VALUE OF 'Parameters.useMEXFiles' to 'false'.       %
 %                                                                      %
-% CURRENTLY, THEY ARE CALLED FROM: getILBPCode.                        %
+% CURRENTLY, THEY ARE CALLED FROM: getILBPCode AND quantAOI            %
 %                                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

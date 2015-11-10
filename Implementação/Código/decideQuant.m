@@ -1,15 +1,7 @@
-function [ decision ] = decideQuant( input, dimension )
+function [ decision ] = decideQuant( input, amountElements )
 %decideQuant decides the value for the current area, given its dimension
 %   This function is responsible for deciding whether the central pixel
 %   belongs or not to the AOI
-
-% global parameter;
-
-% amountElements = parameter.quantDimension*parameter.quantDimension;
-% amountElements = (parameter.quantDimension)^2;
-amountElements = dimension^2;
-
-input = reshape(input, [1 amountElements]);
 
 counter = 1;
 threshold = floor(amountElements/2);
