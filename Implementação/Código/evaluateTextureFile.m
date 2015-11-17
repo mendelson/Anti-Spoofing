@@ -4,10 +4,11 @@ fprintf('Evaluating texture descriptor file!\n');
 
 load net/nnet.mat;
 
-load(inputPath);
-textureDescriptor = textureDescriptor';
+texDescriptor = load(inputPath, 'textureDescriptor');
+texDescriptor = texDescriptor.textureDescriptor;
+texDescriptor = texDescriptor';
 
-netEvaluation = net(textureDescriptor);
+netEvaluation = net(texDescriptor);
 
 end
 
