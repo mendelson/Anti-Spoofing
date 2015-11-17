@@ -18,7 +18,7 @@ best_perform = Inf;
 best_i = 0;
 best_j = 0;
 
-for i = 10:25
+for i = 10:20
     
     net = feedforwardnet(i);
     net = configure(net, inputDataSet, targetsSet);
@@ -29,10 +29,22 @@ for i = 10:25
     net.divideParam.testRatio = 0.34;
     net.trainParam.epochs = 1000;
     net.divideFcn = 'dividerand';
+%     net.divideFcn = 'divideint';
     
     for j = 1:20
         net = init(net);
-        net.trainParam.showWindow = true;
+        
+%         net = configure(net, inputDataSet, targetsSet);
+%         net.layers{1}.transferFcn = 'tansig';
+%         net.layers{2}.transferFcn = 'tansig';
+%         net.divideParam.trainRatio = 0.33;
+%         net.divideParam.valRatio = 0.33;
+%         net.divideParam.testRatio = 0.34;
+%         net.trainParam.epochs = 1000;
+% %         net.divideFcn = 'dividerand';
+%         net.divideFcn = 'divideint';
+        
+        net.trainParam.showWindow = false;
         [net, tr] = train(net, inputDataSet, targetsSet);
         SaidasSimuladas = net(inputDataSet(:, tr.testInd));
         ERRO = sum(abs(SaidasSimuladas-targetsSet(:, tr.testInd)))/length(tr.testInd);
