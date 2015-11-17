@@ -16,15 +16,14 @@ for i = 1:size(testInputSet, 2)
     evaluation = netEvaluation;
     
     %% Classification
-%     if netEvaluation >= 0 && netEvaluation <= 0.25
     if netEvaluation <= 0.25
-        fprintf('\nNot a finger!\n');
+        fprintf('\n%d: Not a finger!\n', i);
         evaluation = 0;
     elseif netEvaluation > 0.25 && netEvaluation <= 0.75
-        fprintf('\nDistorted finger!\n');
+        fprintf('\n%d: Distorted finger!\n', i);
         evaluation = 0.5;
     elseif netEvaluation > 0.75
-        fprintf('\nReal finger!\n');
+        fprintf('\n%d: Real finger!\n', i);
         evaluation = 1;
     end
     
@@ -43,3 +42,17 @@ falseNegativRate = falseNegativRate/i;
 hitRate = hitRate/i;
 
 fprintf('\nHit Rate: %.2f%%\nFalse Positiv Rate: %.2f%%\nFalse Negativ Rate: %.2f%%\n', hitRate*100, falsePositivRate*100, falseNegativRate*100);
+
+%% Ploting regression
+netOutputs = net(inputDataSet);
+trainOutputs = netOutputs(:, tr.trainInd);
+validationOutputs = netOutputs(:, tr.valInd);
+testOutputs = netOutputs(:, tr.testInd);
+trainTargets = targetsSet(tr.trainInd);
+validationTargets = targetsSet(tr.valInd);
+testTargets = targetsSet(tr.testInd);
+plotregression(trainTargets,trainOutputs,'Training', validationTargets,validationOutputs,'Validation', testTargets,testOutputs,'Test', targetsSet,netOutputs,'All');
+
+% size(tr.trainInd) % 277
+% size(tr.valInd) % 277
+% size(tr.testInd) % 286
