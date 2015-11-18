@@ -1,7 +1,6 @@
 function [ evaluation ] = evaluateAcquisition( inputPath )
 
 close all;
-% clear all;
 clc;
 
 netEvaluation = -1;

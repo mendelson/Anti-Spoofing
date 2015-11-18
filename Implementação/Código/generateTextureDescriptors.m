@@ -2,18 +2,7 @@ close all;
 clear all;
 clc;
 
-%% Loading parameters into global workspace
-loadParameters;
-
-global parameter;
-
-%% Compiling CPP files
-if parameter.useMEXFiles
-    compileCMEXFiles;
-end
-
-%% Enabling parallel processing
-setupNumberOfThreadsToBeUsed;
+prepareEnvironment;
 
 %% Generating textures
 inputFolderRoot = 'input/';
@@ -26,6 +15,7 @@ currentFolderNumber = initialFolderNumber - 1;
 counter = 0;
 
 while folderExists == 1
+    close all;
     clc;
     currentFolderNumber = currentFolderNumber + 1;
     
@@ -42,14 +32,7 @@ while folderExists == 1
             fprintf(strcat('Evaluating image: \0', filePath, '      Currently at-', num2str(i), '/', num2str(size(listing, 1)), ' image(s) on this folder.'));
             fprintf('\n====================================================================================================\n');
             
-            %% Opening input image
-            input = imread(filePath);
-
-            %% Getting AOI mask
-            aoiMask = getAOIMask(input);
-
-            %% Getting image's texture
-            textureDescriptor = getTexture(input, aoiMask);
+            textureDescriptor = getImageTextureDescriptor(filePath);
             
             %% Saving image's texture
             if exist(strcat(textureDescriptorsFolderRoot, num2str(currentFolderNumber), '/'), 'dir') ~= 7

@@ -25,22 +25,15 @@ for i = 10:20
     net = configure(net, inputDataSet, targetsSet);
     net.layers{1}.transferFcn = 'tansig';
     net.layers{2}.transferFcn = 'tansig';
-%     net.divideParam.trainRatio = 0.33;
-%     net.divideParam.valRatio = 0.33;
-%     net.divideParam.testRatio = 0.34;
-    net.trainParam.epochs = 1000;
 %     net.divideFcn = 'dividerand';
-%     net.divideFcn = 'divideint';
+    net.divideFcn = 'divideint';
+    net.divideParam.trainRatio = 0.33;
+    net.divideParam.valRatio = 0.33;
+    net.divideParam.testRatio = 0.34;
+    net.trainParam.epochs = 1000;
     
     for j = 1:20
         net = init(net);
-        
-        net.divideParam.trainRatio = 0.33;
-        net.divideParam.valRatio = 0.33;
-        net.divideParam.testRatio = 0.34;
-        net.divideFcn = 'dividerand';
-%         net.divideFcn = 'divideint';
-        
         net.trainParam.showWindow = false;
         [net, tr] = train(net, inputDataSet, targetsSet);
         netTestOutputs = net(inputDataSet(:, tr.testInd));
@@ -55,7 +48,7 @@ for i = 10:20
         end
         
         clc
-        fprintf('===== Current =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f\n===== Best =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f', i, j, ERROR, tr.best_tperf, best_i, best_j, minERROR, best_perform);
+        fprintf('===== Current =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f\n=====  Best   =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f', i, j, ERROR, tr.best_tperf, best_i, best_j, minERROR, best_perform);
         
     end
 end

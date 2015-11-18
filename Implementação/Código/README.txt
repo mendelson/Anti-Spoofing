@@ -7,3 +7,5 @@ To generate all the texture descriptors, run the script 'generateTextureDescript
 To train the neural network, run the script 'trainNN.m'
 To obtain the metrics reported at the paper, run the script 'generateMetrics.m'
 To evaluate a specific image or a specific texture descriptor file, call the function 'evaluateAcquisition'
+
+Run 'main.m' if you want to run the entire system. Note that it may take a few hours.

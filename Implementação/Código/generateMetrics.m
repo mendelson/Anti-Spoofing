@@ -52,7 +52,3 @@ trainTargets = targetsSet(tr.trainInd);
 validationTargets = targetsSet(tr.valInd);
 testTargets = targetsSet(tr.testInd);
 plotregression(trainTargets,trainOutputs,'Training', validationTargets,validationOutputs,'Validation', testTargets,testOutputs,'Test', targetsSet,netOutputs,'All');
-
-% size(tr.trainInd) % 277
-% size(tr.valInd) % 277
-% size(tr.testInd) % 286
