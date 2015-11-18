@@ -13,4 +13,3 @@ if parameter.showBlurredImage
 end
 
 end
-

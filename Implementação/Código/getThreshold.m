@@ -1,6 +1,4 @@
 function [ threshold ] = getThreshold( input )
-%getThreshold computes the global threshold for an image
-%   This function computes the global threshold for an image
 
 global parameter;
 

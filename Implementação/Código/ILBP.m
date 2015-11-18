@@ -21,7 +21,6 @@ if parameter.useParallel
         end
     end
 else
-%     x = 0;
     for i = padding + 1:height - padding
         for j = padding + 1:width - padding
             if input(i, j) ~= 0

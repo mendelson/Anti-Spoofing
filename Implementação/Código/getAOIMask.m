@@ -1,7 +1,4 @@
 function [ aoi ] = getAOIMask( input )
-%getAOI defines the AOI (area of interest)'s shape and location (mask)
-%   This function implements the segmentation in order to define the AOI's
-%   shape and location (mask)
 
 global parameter;
 
@@ -11,7 +8,6 @@ smoothedInput = preProc(input);
 
 %% Defining threshold
 fprintf('\nComputing global threshold...');
-% threshold = getThreshold(input);
 threshold = getThreshold(smoothedInput);
 fprintf('\nGlobal threshold: %f\n', threshold);
 
