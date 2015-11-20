@@ -1,4 +1,6 @@
 classdef Utils
+    %% Don't use this class. It has been created just to provide a faster
+    %% way to generate and save the results for the paper.
     
     properties
     end
@@ -44,6 +46,150 @@ classdef Utils
             figure, imshow(input.*rawAOI);
             
         end
+        
+        function quantize
+            close all;
+            
+            prepareEnvironment
+            
+            input = imread('../../Parte escrita/img/misc/7.1.08.tiff');
+            
+            figure, imshow(input);
+            
+%             figure, imshow(getAOIMask(input));
+            mask = getAOIMask(input);
+            figure, imshow(uint8(mask).*input);
+            
+            for i = 1:50
+                mask = quantAOI(mask);
+            end
+            
+            figure, imshow(uint8(mask).*input);
+        end
+        
+        function gray
+            close all;
+            
+            input = imread('../../Parte escrita/img/lena_cortada.jpg');
+            
+            input = rgb2gray(input);
+            
+            subplot(2, 3, 1), imshow(input);
+            title('(a)');
+            
+            input = Utils.downL(input, 4);
+            
+            subplot(2, 3, 2), imshow(input);
+            title('(b)');
+            
+            input = Utils.downL(input, 3);
+            
+            subplot(2, 3, 3), imshow(input);
+            title('(c)');
+            
+            input = Utils.downL(input, 2);
+            
+            subplot(2, 3, 4), imshow(input);
+            title('(d)');
+            
+            input = Utils.downL(input, 1);
+            
+            subplot(2, 3, 5), imshow(input);
+            title('(e)');
+        end
+        
+        function [ newImage ] = downL( image, bits )
+            L = 2.^bits;
+            
+            newScale = Utils.getScale(L);
+            
+            newImage = zeros(size(image, 1), size(image, 2));
+            
+            for i = 1:size(image, 1)
+                for j = 1:size(image, 2)
+                    newImage(i, j) = newScale(image(i, j) + 1);
+                end
+            end
+            
+            newImage = uint8(newImage);
+            
+        end
+        
+        function [ transformationVector ] = getScale( L )
+            transformationVector = zeros(256);
+            
+            indexOffset = 255/(L-1);
+            
+            for i = 1:indexOffset:(256 - indexOffset)
+                initial = i;
+                final = initial + indexOffset;
+                half_way = (initial + final - 1)/2;
+                transformationVector(initial:half_way) = initial - 1;
+                transformationVector((half_way + 1):final) = final - 1;
+            end
+            
+        end
+        
+        function vader
+            close all;
+            
+            a = imread('../../Parte escrita/img/originais/vader_side_original.jpg');
+            figure, imshow(a);
+            
+            a = rgb2gray(a);
+            figure, imshow(a);
+            
+            b = histeq(a);
+            figure, imshow(b);
+        end
+        
+        function monotonic
+            close all;
+
+            x = linspace(0, 1, 1000000);
+            y = 0.5 + 4*(x - 0.5).^3;
+            
+            figure, plot(x, y, 'LineWidth', 2);
+            xlabel({'Níveis de cinza', '(0 \leq r \leq 1)'}, 'FontSize', 14);
+            ylabel({'T(r) = (1 + 8*(x - 0.5)^3/2', '(0 \leq s \leq 1)'}, 'FontSize', 14);
+            
+        end
+        
+        function descriptor
+            close all;
+            
+            prepareEnvironment;
+            
+            input = imread('../../Parte escrita/img/textures/1.1.13.tiff');
+            
+%             input = rgb2gray(input);
+            
+            figure, imshow(input);
+            
+            textureDescriptor = ILBP(input);
+            
+            sumOfElements = sum(textureDescriptor);
+            
+            normalizedTextureDescriptor = textureDescriptor./sumOfElements;
+            
+            figure, plot(normalizedTextureDescriptor);
+            
+        end
+        
+        function glcm
+            close all;
+            
+            input = imread('../../Parte escrita/img/textures/1.1.13.tiff');
+            
+            offset = [0, 1; 0, -1; 1, 0; -1, 0; 1, 1; 1, -1; -1, -1; -1, 1];
+            glcm = graycomatrix(input, 'NumLevels', 256, 'Offset', offset);
+            
+            stats = graycoprops(glcm, {'Contrast', 'Correlation', 'Energy', 'Homogeneity'});
+            
+            fprintf('Contrast: %f\nCorrelation: %f\nEnergy: %f\nHomogeneity: %f\n', mean(stats.Contrast), mean(stats.Correlation), mean(stats.Energy), mean(stats.Homogeneity));
+            
+        end
+        
     end
     
 end

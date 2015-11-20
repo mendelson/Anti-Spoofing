@@ -1,6 +1,6 @@
 function [ quantInput ] = quantAOI( input )
 %quantAOI quantizes the input
-%   This function is used in order to make the AOI free of undesired
+%   This function is used to make the AOI free of undesired
 %   'holes' inside of it or undesired disconected data.
 
 global parameter;
