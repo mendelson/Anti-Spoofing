@@ -7,7 +7,7 @@ classdef Parameters
         %% Code parameters
         diskFilterRadius = 70;
         thresholdPrecision = 0.00001;
-        quantDimension = 5; %expected to be an odd value
+        quantDimension = 91; %expected to be an odd value
         ILBPNeighborhoodDimension = 3; %expected to be an odd value
         
         %% Data to be displayed

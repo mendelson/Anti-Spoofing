@@ -16,7 +16,7 @@ if parameter.useParallel
     parfor i = padding + 1:height - padding
         for j = padding + 1:width - padding
 %             if decideQuant(reshape(input(i-padding:i+padding, j-padding:j+padding), [1 amountElements]), amountElements) == 0
-            if decideQuant(double(reshape(input(i-padding:i+padding, j-padding:j+padding), [1 amountElements])), amountElements) == 0
+            if decideQuant_(double(reshape(input(i-padding:i+padding, j-padding:j+padding), [1 amountElements])), amountElements) == 0
                 quantInput(i, j) = 0;
             else
                 quantInput(i, j) = 1;

@@ -190,6 +190,20 @@ classdef Utils
             
         end
         
+        function go
+            close all;
+            clear all;
+            clc;
+            
+%             profile on;
+            evaluateAcquisition('../../Parte escrita/img/originais/SI-2_g15_2_2_1.pgm');
+%             evaluateAcquisition('input/5/SI-5_g63_2_1_0.pgm');
+%             evaluateAcquisition('input/6/SI-6_g20_2_7_0.pgm');
+%             evaluateAcquisition('input/7/SI-7_g20_2_10_1.pgm');
+%             profile off;
+%             profile viewer;
+        end
+        
     end
     
 end
