@@ -204,6 +204,39 @@ classdef Utils
 %             profile viewer;
         end
         
+        function plotSigmoid
+            close all;
+            
+            x = -2:0.1:10;
+            y = sigmf(x,[2 4]);
+            plot(x,y)
+%             xlabel('sigmf, P = [2 4]')
+            ylim([-0.05 1.05])
+        end
+        
+        function plotStep
+            close all;
+            
+            syms x
+            ezplot(heaviside(x), [-10, 10])
+        end
+        
+        function plotTanSig
+            close all;
+            
+            n = -5:0.1:5;
+            a = tansig(n);
+            plot(n,a)
+        end
+        
+        function plotPurelin
+            close all;
+            
+            n = -5:0.1:5;
+            a = purelin(n);
+            plot(n,a)
+        end
+        
     end
     
 end
