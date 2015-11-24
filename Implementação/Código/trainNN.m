@@ -1,14 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% BEFORE RUNNING THIS SCRIPT, MAKE SURE YOU HAVE SETUP THE ENVIRONMENT PROPERLY.%
-% RUNNING 'setupInputImages.m' and 'generateTextureDescriptors.m' SHOULD BE     %
-% ENOUGH.                                                                       %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-close all;
-clear all;
+function [ ] = trainNN( inputDataSet, targetsSet )
 clc;
-
-[inputDataSet, targetsSet] = setDataSet();
 
 if exist('net/', 'dir') ~= 7
     mkdir('net/');
@@ -48,7 +39,7 @@ for i = 10:20
         end
         
         clc
-        fprintf('===== Current =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f\n=====  Best   =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f', i, j, ERROR, tr.best_tperf, best_i, best_j, minERROR, best_perform);
+        fprintf('Training NN\n===== Current =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f\n=====  Best   =====\nNeurons: %d\nTraining attempt: %d\nERROR: %f\nPerformance: %f', i, j, ERROR, tr.best_tperf, best_i, best_j, minERROR, best_perform);
         
     end
 end
@@ -56,9 +47,12 @@ end
 %% Visualizing data
 load net/nnet.mat;
 
-plot(targetsSet(tr.testInd), net(inputDataSet(:, tr.testInd)), 'ro')
+figure, plot(targetsSet(tr.testInd), net(inputDataSet(:, tr.testInd)), 'ro')
 xlabel('Expected')
 ylabel('Predicted')
 grid on
 
 [netTestOutputs ; targetsSet(tr.testInd)]'
+
+end
+

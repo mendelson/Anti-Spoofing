@@ -1,14 +1,15 @@
-close all;
+function [ ] = generateMatrics()
+% close all;
 clear all;
-clc;
+% clc;
 
 load net/nnet.mat
 
 testInputSet = inputDataSet(:,tr.testInd);
 testTargetSet = targetsSet(:,tr.testInd);
 
-falsePositivRate = 0;
-falseNegativRate = 0;
+FAR = 0;
+FRR = 0;
 hitRate = 0;
 
 for i = 1:size(testInputSet, 2)
@@ -17,13 +18,13 @@ for i = 1:size(testInputSet, 2)
     
     %% Classification
     if netEvaluation <= 0.25
-        fprintf('\n%d: Not a finger!\n', i);
+%         fprintf('\n%d: Not a finger!\n', i);
         evaluation = 0;
     elseif netEvaluation > 0.25 && netEvaluation <= 0.75
-        fprintf('\n%d: Distorted finger!\n', i);
+%         fprintf('\n%d: Obfuscated finger!\n', i);
         evaluation = 0.5;
     elseif netEvaluation > 0.75
-        fprintf('\n%d: Real finger!\n', i);
+%         fprintf('\n%d: Real finger!\n', i);
         evaluation = 1;
     end
     
@@ -31,17 +32,17 @@ for i = 1:size(testInputSet, 2)
     if evaluation == testTargetSet(i)
         hitRate = hitRate + 1;
     elseif evaluation <= 0.5 && testTargetSet(i) == 1
-        falseNegativRate = falseNegativRate + 1;
+        FRR = FRR + 1;
     elseif evaluation == 1 && testTargetSet(i) <= 0.5
-        falsePositivRate = falsePositivRate + 1;
+        FAR = FAR + 1;
     end
 end
 
-falsePositivRate = falsePositivRate/i;
-falseNegativRate = falseNegativRate/i;
+FAR = FAR/i;
+FRR = FRR/i;
 hitRate = hitRate/i;
 
-fprintf('\nHit Rate: %.2f%%\nFalse Positiv Rate: %.2f%%\nFalse Negativ Rate: %.2f%%\n', hitRate*100, falsePositivRate*100, falseNegativRate*100);
+fprintf('\n\nnnet:\nHit Rate: %.2f%%\nFalse Accept Rate: %.2f%%\nFalse Negativ Rate: %.2f%%\n', hitRate*100, FAR*100, FRR*100);
 
 %% Ploting regression
 netOutputs = net(inputDataSet);
@@ -51,4 +52,6 @@ testOutputs = netOutputs(:, tr.testInd);
 trainTargets = targetsSet(tr.trainInd);
 validationTargets = targetsSet(tr.valInd);
 testTargets = targetsSet(tr.testInd);
-plotregression(trainTargets,trainOutputs,'Training', validationTargets,validationOutputs,'Validation', testTargets,testOutputs,'Test', targetsSet,netOutputs,'All');
+figure, plotregression(trainTargets,trainOutputs,'Training', validationTargets,validationOutputs,'Validation', testTargets,testOutputs,'Test', targetsSet,netOutputs,'All');
+end
+

@@ -237,6 +237,20 @@ classdef Utils
             plot(n,a)
         end
         
+        function plotNN
+            close all;
+            clear all;
+            clc;
+            
+            load net/nnet1.mat;
+            
+            plot(localTargets(tr.testInd), net(localInput(:, tr.testInd)), 'ro')
+            xlabel('Expected')
+            ylabel('Predicted')
+            grid on
+            
+            [netTestOutputs ; localTargets(tr.testInd)]'
+        
     end
     
 end
