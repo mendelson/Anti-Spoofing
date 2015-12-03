@@ -250,6 +250,7 @@ classdef Utils
             grid on
             
             [netTestOutputs ; localTargets(tr.testInd)]'
+        end
         
     end
     

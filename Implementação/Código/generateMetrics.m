@@ -17,13 +17,13 @@ for i = 1:size(testInputSet, 2)
     evaluation = netEvaluation;
     
     %% Classification
-    if netEvaluation <= 0.25
+    if netEvaluation <= -0.5
 %         fprintf('\n%d: Not a finger!\n', i);
-        evaluation = 0;
-    elseif netEvaluation > 0.25 && netEvaluation <= 0.75
+        evaluation = -1;
+    elseif netEvaluation > -0.5 && netEvaluation <= 0.5
 %         fprintf('\n%d: Obfuscated finger!\n', i);
-        evaluation = 0.5;
-    elseif netEvaluation > 0.75
+        evaluation = 0;
+    elseif netEvaluation > 0.5
 %         fprintf('\n%d: Real finger!\n', i);
         evaluation = 1;
     end
@@ -53,5 +53,7 @@ trainTargets = targetsSet(tr.trainInd);
 validationTargets = targetsSet(tr.valInd);
 testTargets = targetsSet(tr.testInd);
 figure, plotregression(trainTargets,trainOutputs,'Training', validationTargets,validationOutputs,'Validation', testTargets,testOutputs,'Test', targetsSet,netOutputs,'All');
+
+figure, plotperform(tr);
 end
 

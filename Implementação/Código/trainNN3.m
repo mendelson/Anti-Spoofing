@@ -9,7 +9,7 @@ localInput = zeros(size(inputDataSet, 1), []);
 localTargets = [];
 
 for i = 1:size(targetsSet, 2)
-    if targetsSet(i) == 0 || targetsSet(i) == 0.5
+    if targetsSet(i) == -1 || targetsSet(i) == 0
         localInput(:, end + 1) = inputDataSet(:, i);
         localTargets(end + 1) = targetsSet(i);
     end

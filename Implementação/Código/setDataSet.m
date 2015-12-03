@@ -4,7 +4,7 @@ textureDescriptorsFolderRoot = 'textureDescriptors/';
 folders = dir('textureDescriptors\');
 folders = folders(3:size(folders, 1));
 foldersWithRealFingers = [1];
-foldersWithDistortedFingers = [2 19];
+foldersWithObfuscatedFingers = [2 19];
 
 inputDataSet = [];
 targetsSet = [];
@@ -15,10 +15,10 @@ for i = 1:size(folders, 1)
     
     if any(i == foldersWithRealFingers) == 1
         target = 1;
-    elseif any(i == foldersWithDistortedFingers) == 1
-        target = 0.5;
-    else
+    elseif any(i == foldersWithObfuscatedFingers) == 1
         target = 0;
+    else
+        target = -1;
     end
     
     for j = 1:size(textureDescriptorsFiles, 1)
