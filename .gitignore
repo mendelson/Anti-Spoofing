@@ -1,8 +1,8 @@
 Mateus_Mendelson_PFEC2.doc
+Implementation/Samples/
+Implementation/Code/*.asv
+Implementation/Code/*.mat
+Implementation/Code/*.mexw64*
+Implementation/Code/input
+Presentation/
 references/
-Implementação/Samples/
-Implementação/Código/*.asv
-Implementação/Código/*.mat
-Implementação/Código/*.mexw64*
-Implementação/Código/input
-Apresentação.*
